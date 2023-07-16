@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="daldazTCS7.Vistas.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="VENTANA PARA EL  REGISTRO" FontSize="25" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="txtNombre" Placeholder="INGRESE EL NOMBRE"/>
+            <Entry x:Name="txtUsuario" Placeholder="INGRESE EL USUARIO"/>
+            <Entry x:Name="txtcontrasena" Placeholder="INGRESE LA CONTRASEÑA"/>
+            <Button x:Name="btnIngresar" Text="INSERTAR" Clicked="btnIngresar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
