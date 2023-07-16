@@ -44,7 +44,7 @@ namespace daldazTCS7.ViewModels
 
         private async void OnCancel()
         {
-            // This will pop the current page off the navigation stack
+
             await Shell.Current.GoToAsync("..");
         }
 
@@ -59,7 +59,7 @@ namespace daldazTCS7.ViewModels
 
             await DataStore.AddItemAsync(newItem);
 
-            // This will pop the current page off the navigation stack
+     
             await Shell.Current.GoToAsync("..");
         }
     }
